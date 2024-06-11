@@ -1,0 +1,23 @@
+body
+{
+    background-color: aqua;
+}
+
+.di{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.But
+{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+}

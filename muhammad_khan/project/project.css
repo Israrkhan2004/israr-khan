@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoo {
+  color: rgb(59, 161, 161);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.logoo:hover {
+  cursor: default;
+  color: aqua;
+  transition: color 0.6s;
+}
+
+.navv ul {
+  list-style: none;
+  display: flex;
+}
+
+.navv ul li {
+  margin: 20px;
+}
+
+.navv ul a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(59, 161, 161);
+}
+
+.navv ul a:hover {
+  color: rgb(0, 0, 0);
+  transition: color 0.5s;
+}
+
+.access a {
+  color: rgb(59, 161, 161);
+  text-decoration: none;
+}
+.search-bar {
+  margin-right: 20px;
+}
+
+.icon {
+  margin-left: 20px;
+  font-weight: bold;
+  position: relative;
+  margin-right: 10px;
+}
+.icon span {
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  padding: 5px 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+header {
+  text-align: center;
+  color: rgb(19, 13, 10);
+  padding: 250px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.animation {
+  background-color: rgb(59, 161, 161);
+  color: rgb(192, 183, 183);
+  padding: 5px 20px;
+
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30px;
+}
+header a {
+  font-size: 20px;
+}
+
+.animation:hover {
+  background-color: black;
+  color: white;
+  transition: color 1.6s;
+  transition: background-color 1.6s;
+}
+
+.photos {
+  display: flex;
+  border-radius: black solid 10px;
+}
+
+.photos h2 {
+  background-color: aqua;
+  text-align: center;
+}
+
+.gallery {
+  border-radius: black solid 10px;
+}
+
+.gallery img {
+  border-image: black solid 10px;
+}
+
+.feature {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.product-container {
+  padding: 10px;
+  margin: 10px;
+  background-color: #774a4a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.frick-1 {
+  background-color: #ad9191;
+}
+
+.frick-1 p {
+  width: 70%;
+  background-color: rgb(143, 238, 238);
+  align-items: center;
+}
+.frick-1-text{
+  font-size: 18px;
+  padding-inline: 120px;
+}
+.frick-2 {
+  background-color: rgb(117, 143, 170);
+}
+
+.frick-2 p {
+  text-align: center;
+  background-color: rgb(31, 70, 70);
+  padding-inline: -50px;
+}
+
+.frick-3 {
+  background-color: rgb(40, 134, 103);
+}
+
+.image-image {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  padding-inline: 50px;
+  /* margin-top: 5px; */
+}
+
+.product-details {
+  margin: 90px;
+  padding: 20px;
+  padding-left: 100px;
+  background-color: #fff;
+}
+
+.product-details h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.product-details p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-details li {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product-price p {
+  font-size: 18px;
+}
+
+.buy-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.items {
+  width: 100%;
+  align-self: center;
+  padding-inline: 120px;  
+  background-color: rgb(8, 94, 94);
+}
+
+.buy-button:hover {
+  background-color: #555;
+}
+
+/*for product section*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.product {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 220px;
+  height: 400px;
+}
+
+.product-1
+{
+  box-shadow: 0 0 10px rgb(43, 42, 42, 0.3); 
+  margin: 10px;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 220px;
+  height: 400px;
+
+  
+  
+  
+  
+  
+}
+
+.Featured-Product h1
+{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Featured-Product h1:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+
+}
+
+img:hover{
+  background-size: 200px;
+}
+h2 {
+  color: #333;
+}
+p {
+  color: #666;
+}
+.price {
+  color: #f00;
+  font-weight: bold;
+}

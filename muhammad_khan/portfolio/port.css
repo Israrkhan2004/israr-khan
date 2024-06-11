@@ -1,0 +1,38 @@
+body
+{
+    background-color: rgb(240, 231, 220);
+}
+
+.main-menu
+{
+    float: right;
+}
+
+.menu
+{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.menu-text
+{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu-text:hover
+{
+    background-color: antiquewhite;
+    color: red;
+}
+
+.nav-main{
+    background-color: rgb(204, 157, 96);
+    height: 100px;
+}
+
+#te
+{
+    color: blue;
+}

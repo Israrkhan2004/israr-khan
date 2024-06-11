@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 100px auto;
+            background-color: aqua;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            flex-grow: 1;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #1f1818;
+            color: white;
+        }
+
+        .tab:hover {
+            background-color: #5c5656;
+            color: #ffffff;
+        }
+
+        .active-tab {
+            background-color: #1f1818;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .switch-form {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .switch-form a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .switch-form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login / Signup</h2>
+
+        <div class="tabs">
+            <div class="tab active-tab" onclick="showLoginForm()">Login</div>
+            <div class="tab" onclick="showSignupForm()">Signup</div>
+        </div>
+
+        <!-- Login Form -->
+        <form id="loginForm">
+            <label for="loginEmail">Email:</label>
+            <input type="email" id="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" required>
+
+            <button target="project" type="submit">Login</button>
+        </form>
+
+        <!-- Signup Form -->
+        <form id="signupForm" style="display: none;">
+            <label for="signupName">Full Name:</label>
+            <input type="text" id="signupName" required>
+
+            <label for="signupEmail">Email:</label>
+            <input type="email" id="signupEmail" required>
+
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" required>
+
+            <button type="submit">Signup</button>
+        </form>
+
+        <div class="switch-form">
+            <p>Don't have an account? <a href="#" onclick="showSignupForm()">Signup here</a>.</p>
+            <p>Already have an account? <a href="#" onclick="showLoginForm()">Login here</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        function showLoginForm() {
+            document.getElementById("loginForm").style.display = "flex";
+            document.getElementById("signupForm").style.display = "none";
+            document.querySelector('.tab.active-tab').classList.remove('active-tab');
+            document.querySelectorAll('.tab')[0].classList.add('active-tab');
+        }
+
+        function showSignupForm() {
+            document.getElementById("loginForm").style.display = "none";
+            document.getElementById("signupForm").style.display = "flex";
+            document.querySelector('.tab.active-tab').classList.remove('active-tab');
+            document.querySelectorAll('.tab')[1].classList.add('active-tab');
+        }
+    </script>
+
+</body>
+</html>

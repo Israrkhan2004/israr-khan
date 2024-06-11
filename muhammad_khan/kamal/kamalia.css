@@ -1,0 +1,84 @@
+.navbar
+{
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.navbar h2
+{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar h2:hover
+{
+    background-color: white;
+}
+.navbar:hover
+{
+    background-color: black;
+}
+.subnav-content{
+    background-color: aliceblue;
+    color: black;
+    padding: 50px 50px;
+    text-align: center;
+    padding-left: 190px;
+    padding-right: 300px;
+    overflow: hidden;
+
+}
+.ok
+{
+    overflow: hidden;
+    text-align: center;
+}
+
+.subnav
+{
+    font-size: 16px;
+    color: white;
+    outline: none;
+    background-color: black;
+    border: 1px solid white;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 4px;
+    overflow: hidden;
+}
+
+.ok:hover .subnav
+{
+    background-color: black;
+}
+.ok:hover p
+{
+    display: block;
+}
+
+
+.subnav-content
+{
+    background-color: red;
+    width: 80%;
+}
+
+.subnav-content p 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.subnav-content p:hover
+{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.ok:hover .subnav-content
+{
+    display: block;
+}
